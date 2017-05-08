@@ -13,8 +13,8 @@ import xgboost as xgb
 import datetime
 #now = datetime.datetime.now()
 
-train = pd.read_csv('train.csv/train.csv')
-test = pd.read_csv('test.csv/test.csv')
+train = pd.read_csv('FEATURE_ENGINEERING_FACTORY/train.csv')
+test = pd.read_csv('FEATURE_ENGINEERING_FACTORY/test.csv')
 macro = pd.read_csv('macro.csv')
 id_test = test.id
 train.sample(3)
